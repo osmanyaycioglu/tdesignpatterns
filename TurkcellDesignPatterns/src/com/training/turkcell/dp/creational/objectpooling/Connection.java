@@ -2,7 +2,7 @@ package com.training.turkcell.dp.creational.objectpooling;
 
 import java.io.Closeable;
 
-import com.training.turkcell.dp.creational.facade.JsonFacade;
+import com.training.turkcell.dp.structural.facade.JsonFacade;
 
 public class Connection implements Closeable {
 	private ConnectionPool connectionPool;
